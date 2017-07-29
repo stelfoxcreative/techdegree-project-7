@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  color: #434343;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.5;
+}
+
+main {
+  padding: 24px;
+}
+
+@media (min-width: 768px) {
+  main {
+    padding: 0;
+  }
+  .mejs__container {
+    margin-top: 24px;
+  }
+}
+
+.clearfix:after {
+  content: ".";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.highlight {
+  color: #ffa31d;
+}
+
+.mejs__controls {
+  background-color: rgba(0,0,0,0.5) !important;
+}
+
+.mejs__time-current {
+  background-color: #ffa31d;
+}
